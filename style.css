@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+    box-sizing: border-box;      
+}
+body{
+    background-color: black;
+}
+.main1{
+    background-image: url(https://q3v5z9r8.rocketcdn.me/wp-content/uploads/2022/02/2.3-Netflix.png);
+    background-size: cover;
+    opacity: .66;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:none;
+    color: red;  
+    height: 100px;
+    align-items: center;
+}
+#net{
+    font-size:4rem;
+}
+.btnred{
+    color:white;
+    background-color: red;
+    width: 100px;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+}
+.innercontainar1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-content: center;
+    gap: 3px;
+    height: 100vh;
+}
+.input{
+    display: flex;
+    gap: 5px;
+    margin-top: 30px;
+}
+#h1{
+    font-size: 3rem;
+}
+.email{
+    
+    border-radius: 5px;
+    height: 4rem;
+    width: 22em;
+    font-size: 20px;
+    background-color: rgb(67, 65, 65);
+    border: none;
+}
+.btnget{
+    background-color: red;
+    height: 4rem;
+    width: 12em;
+    border-radius: 5px;
+    color: white; 
+    font-size: x-large;
+    border: none;
+}
+.hr{
+    background-color: rgb(66, 63, 63);
+    padding: 3px;
+    border: none;
+
+    
+
+}
+.innercontainar2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    font-size:1rem;
+
+}
+.innercontainar3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    font-size: 2rem;
+}
+.innercontainar4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    font-size: 2rem;
+}
+.innercontainar5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    font-size: 2rem;
+}
+.accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 10%;
+    height: 100vh;
+    color: #ffffff;
+}
+.accordion-tab{
+    width: 600px;
+    padding: 20px;
+    text-align: left;
+    cursor: pointer;
+    background-color: rgb(57, 56, 56);
+    margin: 3px;
+    color: white;
+    height: 70px;
+    font-size: larger;
+    
+}
+.accordion-tab:hover{
+    background-color: rgb(118, 118, 120);
+}
+.content{
+    display: none;
+}
+p{
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    height: 50vh;
+}
+.row{
+    display: flex;
+}
+.col{
+  margin-right: 130px;
+    
+}
+li{
+    list-style: none;
+    padding: 8px;
+}
+a{
+    color: rgb(193, 190, 190);   
+}
+ 
+
+
+
+
+
+
+
